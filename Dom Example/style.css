@@ -1,0 +1,16 @@
+
+#main{
+    border: 1px solid red;
+    width: 70%;
+    margin: 0 auto;
+    min-height: 300px;
+    display: flex;
+    justify-content: center;
+}
+
+#content{
+    border: 1px solid red;
+    width: 85%;
+    margin: 0 auto;
+    min-height: 200px;
+}
