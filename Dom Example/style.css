@@ -14,3 +14,29 @@
     margin: 0 auto;
     min-height: 200px;
 }
+
+#additional{
+    border: 1px solid blue;
+    width: 70%;
+    margin: 0 auto;
+    min-height: 100px;
+    padding: 10px;
+}
+
+.spans{
+    border: 1px solid rgb(80, 78, 78);
+    border-radius: 5px;
+    color: brown;
+    background-color: lightgrey;
+    padding: 5px;
+    letter-spacing: 0.8px;
+    font-size: 17px;
+    display: inline-block;
+    margin-top: 5px;
+}
+
+.fa{
+    font-size:18px;
+    color: blue;
+    cursor: pointer;
+}
