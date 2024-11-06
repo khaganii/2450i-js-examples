@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    height: 90px;
+    border: 1px solid red;
+    background-color: lightblue;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+}
+
+#aside_cat{
+    width: 20%;
+    max-height: 545px;
+    border: 1px solid red;  
+    overflow-y: scroll;
+}
+
+#all_cats{
+
+}
+
+#aside_prs{
+    width: 80%;
+    border: 1px solid red;
+}
+
+.div_cat{
+    width: 80%;
+    padding: 5px;
+    margin-top: 10px;
+    margin-left: 20px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    background-color: blanchedalmond;
+    cursor: pointer;
+}
+
+.div_cat:hover{
+    background-color: rgb(246, 224, 168);
+    border: 1px solid rgb(31, 17, 17);
+    transition: 1s;
+}
+
+.cat_name{
+    margin-left: 15px;
+    font-size: 20px;
+    color: brown;
+    text-align: left;
+}
+
+h2{
+    margin-top: 5px;
+    text-align: center;
+    color: rgb(89, 79, 79);
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: #2196F3;
+    padding: 5px;
+  }
+  .grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 10px;
+    font-size: 20px;
+    text-align: center;
+  }
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+  }
+  
+  .price {
+    color: grey;
+    font-size: 22px;
+  }
+  
+  .card button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+  .card button:hover {
+    opacity: 0.7;
+  }
